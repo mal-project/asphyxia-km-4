@@ -1,0 +1,24 @@
+//----------------------------------------------------------------------
+#define     IDI_ICON    100
+
+#define     IDD_HIDE    200
+#define     IDD_DLG     201
+#define     IDD_HELP    203
+
+#define     IDS_NAME            300
+#define     IDS_ACTIVATION      301
+#define     IDS_REGISTRATION    302
+
+#define     IDE_NAME            400
+#define     IDE_ACTIVATION      401
+#define     IDE_REGISTRATION    402
+#define     IDE_HELP            403
+
+#define     IDB_HELP    500
+#define     IDB_VERIFY  501
+#define     IDB_CLOSE   502
+#define     IDB_CLOSEHELP   503
+
+#define     IDR_HELP    600
+
+//----------------------------------------------------------------------

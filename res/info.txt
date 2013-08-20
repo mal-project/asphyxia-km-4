@@ -1,0 +1,17 @@
+ Asphyxia's km#4
+  - Crypto/modular maths mainly
+  - No brute force needed
+  - Can be byte patched easily
+ 
+ "Siento el hastio que, fluyendo por entre
+ mis cabellos, con un suspiro me ahoga"
+ 
+ Have fun. See u at next one.
+
+
+ Respects to the following groups and people
+ for their work and knowledge...
+
+        TKM!, xtreeme, HTB, RET, TMG, FFF;
+           blaCkEye, tE!, WiteG, ged_, jB;
+ 

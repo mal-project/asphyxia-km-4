@@ -1,0 +1,47 @@
+//----------------------------------------------------------------------
+#include    "resource.h"
+#include    "rsrc.id"
+
+//----------------------------------------------------------------------
+LANGUAGE   0, 0
+
+//----------------------------------------------------------------------
+IDI_ICON    ICON    DISCARDABLE     "res/icon.ico"
+IDR_HELP    RCDATA  DISCARDABLE     "res/info.txt"
+
+//----------------------------------------------------------------------
+IDD_HIDE    DIALOGEX    0, 0, 0, 0
+{
+}
+
+//----------------------------------------------------------------------
+IDD_DLG      DIALOGEX    0, 0, 365, 120
+STYLE       WS_VISIBLE | DS_CENTER | DS_SYSMODAL
+FONT        7, "Tahoma"
+{
+	CONTROL     "Name:", IDS_NAME, STATIC, ES_READONLY, 9, 10, 100, 9
+    CONTROL     "Activation:", IDS_ACTIVATION, STATIC, ES_READONLY, 9, 20, 100, 9 
+    CONTROL     "Registration:", IDS_REGISTRATION, STATIC, ES_READONLY, 9, 30, 100, 9
+	
+	CONTROL     "", IDE_NAME, EDIT, ES_CENTER | ES_AUTOHSCROLL | WS_TABSTOP, 100, 10, 250, 9
+	CONTROL     "", IDE_ACTIVATION, EDIT, ES_CENTER | ES_AUTOHSCROLL | WS_TABSTOP | ES_UPPERCASE | ES_READONLY, 100, 20, 250, 9
+	CONTROL     "", IDE_REGISTRATION, EDIT, ES_AUTOHSCROLL | WS_TABSTOP, 100, 30, 250, 9
+
+    CONTROL     "&Help", IDB_HELP, BUTTON, BS_CENTER | BS_FLAT | WS_TABSTOP | BS_DEFPUSHBUTTON, 9, 60, 80, 9
+	CONTROL     "&Verify", IDB_VERIFY, BUTTON, BS_CENTER | BS_FLAT | WS_TABSTOP, 170, 60, 90, 9
+	CONTROL     "&Close", IDB_CLOSE, BUTTON, BS_CENTER | BS_FLAT | WS_TABSTOP, 262, 60, 90, 9
+
+	CONTROL     "Asphyxia", 0, STATIC, ES_READONLY | WS_DISABLED, 9, 80, 50, 9
+	CONTROL     "Defeating Earth's Gravity", 1, STATIC, ES_READONLY | WS_DISABLED, 269, 80, 150, 9
+}
+
+//----------------------------------------------------------------------
+IDD_HELP    DIALOGEX    0, 0, 170, 190
+STYLE       DS_CENTER
+FONT        8, "Tahoma"
+{
+	CONTROL     "", IDE_HELP, STATIC, ES_READONLY, 5, 5, 160, 150
+	CONTROL     "&Close", IDB_CLOSEHELP, BUTTON, WS_TABSTOP | BS_CENTER | BS_FLAT | BS_DEFPUSHBUTTON, 8, 145, 150, 9
+}
+
+//----------------------------------------------------------------------
